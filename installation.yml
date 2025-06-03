@@ -8,4 +8,6 @@
   hosts: apache
   become: yes
   roles:
-    - geerlingguy.apache
+    - role: geerlingguy.apache
+      vars:
+        apache_listen_port: 8080

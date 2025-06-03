@@ -1,0 +1,11 @@
+- name: Install NGINX
+  hosts: nginx
+  become: yes
+  roles:
+    - geerlingguy.nginx
+
+- name: Install Apache
+  hosts: apache
+  become: yes
+  roles:
+    - geerlingguy.apache

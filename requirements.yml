@@ -1,6 +1,7 @@
 ---
 roles:
   - name: geerlingguy.nginx
+  - name: geerlingguy.apache  # Add Apache role
 
 collections:
   - name: community.general
